@@ -14,6 +14,12 @@ import { Callout, Tab, Tabs } from 'nextra-theme-docs'
 Ever wanted to make your own creation that isn't an application or a rank centre or an official product?
 You are in the right place! This documentation tells you all you need to know to get started.
 
+Maybe what you are trying to make has already been created?
+https://www.roblox.com/library/13599961668/Ranking-Commands-New - Ranking Commands
+https://www.roblox.com/library/13768491713/RankingCommandsKick - Ranking Commands that kick the ranked player
+https://www.roblox.com/library/13750343705/Rank-On-Points - Rank On Points
+https://www.roblox.com/library/13529898030/Shout-Commands - Set Shout Commands
+
 Here we will send the API via roblox script. This sends a request to RankGun which will do what we instruct it to do in the URL
 If you ever wanted to see what different types of request you can send to RankGun, then take a look here: https://api.rankgun.works/docs#/
 
@@ -74,13 +80,13 @@ This will send a request to RankGun to promote "Fudgerush23"
 You will need to get the player's username or UserID somehow when making your own RankGun creation.
 This can be from a function, variable etc.
 
-### Changing the URL
+## Changing the URL
 
-## Demoting
+#### Demoting
 
 You aren't always going to use just the promote function so if you would like to use demote, simple! Just replace the "promote" to "demote" in the URL
 
-## SetRank
+### SetRank
 
 When you want to use the SetRank function then you must add another variable which will be called "Rank" this will be the RankID that we want to rakn the player to.
 If you are adding this exact script - make sure to add the configurations (workspaceID, apiToken etc.) - those can be found in the promote script.
@@ -100,7 +106,7 @@ If you are adding this exact script - make sure to add the configurations (works
 				end)
 ```
 
-## Others
+### Others
 
 I am not going to list all of the different types of functions you can have here because that would be boring but if you would like to find more different types of ranking you can use for RankGun,
 then as listed above, visit here: https://api.rankgun.works/docs#/
